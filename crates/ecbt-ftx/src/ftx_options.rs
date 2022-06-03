@@ -2,6 +2,8 @@ use ecbt_exchange::exchange::Environment;
 use ecbt_exchange::model::market_pair::MarketPair;
 use std::env::var;
 
+// type Endpoint = ecbt_exchange::exchange::Endpoint;
+
 #[derive(Default, Clone, Debug)]
 pub struct FtxParameters {
     pub environment: Environment,

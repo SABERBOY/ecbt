@@ -9,3 +9,9 @@ impl Default for Environment {
         Self::Production
     }
 }
+#[derive(Debug, Clone, Copy)]
+pub enum Endpoint {
+    Com,
+    Us,
+    Other,
+}
